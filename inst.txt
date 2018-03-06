@@ -1,0 +1,21 @@
+
+Make a component to display an "error box".
+Use font awesome warning triangle
+background pinkish red
+message
+ XX message
+
+ invocation:
+ <ErrorBox>
+  Something has gone wrong
+</ErrorBox>
+
+2 - Add NavItem component.
+- The NavItem should take a url prop and the link text as a child, then render an anchor tag (a) element with that text, and pointing url.
+
+- Modify the Nav component to check that every one of its children is a NavItem. and if not, it should throw an error if any other component type is found.
+
+<Nav>
+  <NavItem url='https://google.com'>Google</NavItem>
+  <NavItem url='https://slack.com'>Slack</NavItem>
+</Nav>

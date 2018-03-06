@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  border: 0.1em solid #b4a9a9;
+  border-radius: 1px;
+  width: 238px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.fa-exclamation-triangle {
+  font-size: 40px;
+}
